@@ -1,3 +1,22 @@
+'''
+I wrote this code as part of my introductory Machine Learning coursework. 
+I would like to acknowledge Professor Nick Feamster's guidance along with all the course Teaching Assistants' help
+
+This code does not have any information related to course assignments.
+
+Generic Machine Learning pipeline that may allow you to:
+- read csv as a dataframedat
+- explore certain variables in a dataframe
+- convert boolean variables to categorical
+- fill missing values in a variable with its mean
+- split data into training and testing
+- normalize columns 
+- convert negative values to missing (might be useful in the case of income data where the negative values DO NOT serve as codes
+- check if data has been normalized (by printing out means and standard deviations of the respective columns)
+- create dummy variables
+- run grid search based on multiple parameters and compute accuracy scores
+'''
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
