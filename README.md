@@ -8,3 +8,4 @@ I have cited all the resources I have utilized for writing these scripts. Incase
 ## Scripts:
 
 1. *sending_email.py*: Allows you to automate sending emails (via Gmail). 
+2. *running_dofile.py*: Allows you to run Stata do-files using Python.
