@@ -9,7 +9,6 @@ import subprocess
 
 dofile = "ENTER DOFILE NAME (FORMAT: test_file.do)"
 
-
 '''
 Here, you will need to add the path to the Stata Application. 
 For example: If I am using Stata 13 and its MP version, the 
