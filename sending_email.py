@@ -38,7 +38,7 @@ def send_email():
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 
     '''
-    Since gmail is bein used here, you'll need to set up Two Step verification.
+    Since gmail is being used here, you'll need to set up Two Step verification.
     You can do that by:
     1. Logging into your gmail account.
     2. Look for the Google Apps button on the top right hand side of the page and click.
